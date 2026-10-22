@@ -5,5 +5,13 @@
       "--background-index",
       "--query-driver=**",
       "--compile-commands-dir=c:\\Users\\valen\\Desktop\\Projects\\GitHub\\VibrationSensor\\build"
-    ]
+    ],
+    "idf.openOcdConfigs": [
+      "board/esp32s3-builtin.cfg"
+    ],
+    "idf.customExtraVars": {
+      "IDF_TARGET": "esp32s3"
+    },
+    "idf.port": "COM3",
+    "idf.flashType": "UART"
 }

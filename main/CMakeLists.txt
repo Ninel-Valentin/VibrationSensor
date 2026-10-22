@@ -1,2 +1,11 @@
-idf_component_register(SRCS "main.c"
-                    INCLUDE_DIRS ".")
+idf_component_register(
+    SRCS
+        "main.c"
+        "sensors/icm42607.c"
+        "drivers/i2c_master_driver.c"
+    INCLUDE_DIRS
+        "."
+        "config"
+        "sensors"
+        "drivers"
+)
